@@ -1,7 +1,7 @@
 <?php
-$host = "localhost"; 
-$user = "root";      
-$pass = "passer";    
+$host = "localhost"; // Ou l'IP du serveur MySQL
+$user = "root";      // Remplace par ton utilisateur MySQL
+$pass = "passer";          // Ton mot de passe MySQL
 $dbname = "smarttech_db";
 
 $conn = new mysqli($host, $user, $pass, $dbname);
