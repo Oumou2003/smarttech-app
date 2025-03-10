@@ -1,0 +1,58 @@
+/* Styles généraux */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background: linear-gradient(135deg, #f8f9fa, #e3f2fd); /* Bleu clair et blanc */
+    color: #333;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px 40px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+/* Titre */
+h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+/* Liens */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    transition: color 0.3s ease-in-out, transform 0.3s;
+    display: inline-block;
+}
+
+ul li a:hover {
+    color: #0056b3;
+    transform: translateX(5px);
+}
